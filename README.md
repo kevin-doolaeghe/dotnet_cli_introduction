@@ -72,9 +72,9 @@ Ce fichier définit :
 Il est possible de configurer manuellement des packages NuGet à utiliser :
 
 ```xml
-	<ItemGroup>
-		<PackageReference Include="<package>" Version="<version>" />
-	</ItemGroup>
+<ItemGroup>
+    <PackageReference Include="<package>" Version="<version>" />
+</ItemGroup>
 ```
 
 Les ressources embarquées dans l'application sont également déclarées dans ce fichier :
@@ -91,4 +91,5 @@ Visual Studio permet la configuration simple :
 - du projet
 - des packages NuGet
 - des ressources
-- ...
+
+Pour cela, il suffit d'accéder aux propriétés du projet (pas de la solution).
